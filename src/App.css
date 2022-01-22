@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  padding: 6px;
+  background-color: hotpink;
+}
+
+.About {
+  text-align: center;
+  padding: 6px;
+  background-color: lawngreen;
+}
+
+a {
+  padding: 6px;
+}
+
+.NestedOne {
+  background-color: lightblue;
+}
+
+.NestedTwo {
+  background-color: aqua;
+}
+
+.NotFound {
+  background-color: red;
+}
