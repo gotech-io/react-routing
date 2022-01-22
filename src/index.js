@@ -30,6 +30,13 @@ ReactDOM.render(
         {/* Outside of our nested routing */}
         <Route path="/about" element={<About />} />
       </Routes>
+      <Routes>
+        <Route
+          path="/about"
+          element={<h2>But how about a second routes?</h2>}
+        />
+        <Route path="*" element={<></>} />
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
