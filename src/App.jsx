@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet, Link, useNavigate } from 'react-router-dom';
+import ActiveLink from './ActiveLink';
 
 import './App.css';
 
@@ -10,7 +11,7 @@ const App = () => {
     <div className="App">
       <h1>App Wrapper</h1>
       <button onClick={() => navigate('/')}>Home</button>
-      <Link to="/nested-one">NestedOne</Link>
+      <ActiveLink to="/nested-one">NestedOne</ActiveLink>
       <Link to="/nested-one/nested-two">NestedTwo</Link>
       <Link to="/params/1">Param 1</Link>
       <Link to="/params/2">Param 2</Link>
